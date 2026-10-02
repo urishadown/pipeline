@@ -1,7 +1,7 @@
 kubectl apply -f 01-vulneravel.yaml# =============================================================
 # 01-vulneravel.yaml
 # Baseline INTENCIONALMENTE vulnerável do Simulador de Cartões de
-# Crédito, para o Laboratório de Segurança em Kubernetes.
+nano k8s/01-vulneravel.yaml# Crédito, para o Laboratório de Segurança em Kubernetes.
 #
 # Vulnerabilidades plantadas neste arquivo (9 no total):
 #   1. ServiceAccount vinculada a um ClusterRoleBinding de cluster-admin
@@ -42,7 +42,7 @@ metadata:
   namespace: cartoes
 data:
   DB_PASSWORD: "Cart0es@2024"
-#  API_KEY_BANDEIRA: "bandeira_live_4f8e2a1b9c7d6e5f"
+  API_KEY_BANDEIRA: "bandeira_live_4f8e2a1b9c7d6e5f"
 ---
 apiVersion: apps/v1
 kind: Deployment

@@ -1,4 +1,4 @@
-# Dockerfile do Simulador de Cartões de Crédito
+3.14.8-bookworm# Dockerfile do Simulador de Cartões de Crédito
 # Usado no Laboratório de Segurança em Kubernetes (Minikube).
 #
 # Este Dockerfile segue boas práticas básicas de construção de imagem

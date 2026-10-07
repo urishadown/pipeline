@@ -1,0 +1,3 @@
+[submodule "pipeline-seguro"]
+	path = pipeline-seguro
+	url = https://github.com/caixaverso-fp/pipeline.git
